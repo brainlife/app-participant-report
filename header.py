@@ -42,9 +42,6 @@ html = """
     <h1 class="title">Participant Report</h2>
     <h2>%s %s</h2>
 
-    <p>TODO describe for the whole report</p>
-    <br>
-
     <div class="columns is-multiline">
 """ % (subject, session)
 
