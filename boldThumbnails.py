@@ -58,6 +58,6 @@ with open(html_filename, "w") as html:
         fig.savefig(f'output/html/bold/thumb{vidx}.png',  bbox_inches='tight')
         plt.close(fig)
 
-        html.write(f'<div class="thumbnail"><b>Volume {vidx}</b><br><img src="../bold/thumb{vidx}.png"></div></li>\n')
+        html.write(f'<div class="thumbnail"><b>Volume {vidx}</b><br><a href="../bold/thumb{vidx}.png"><img src="../bold/thumb{vidx}.png"></a></div></li>\n')
 
     html.write("</div>\n")
